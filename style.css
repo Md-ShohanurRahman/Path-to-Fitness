@@ -44,6 +44,11 @@
     font-weight: 900;
 
 }
+.section-margin{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
 
 /* shared style ends here  */
 
@@ -157,7 +162,10 @@
 
 
 /* header part style ends here  */
+
+
 /* habits section stars here */
+
 .habits-title{
     max-width: 800px;
     margin: 0 auto;
@@ -197,8 +205,44 @@
     text-align: center;
 }
 
-
 /* habits section ends here */
+
+
+
+/* run easy section starts here  */
+.run-easy{
+   
+     border-radius: 18px;
+    background-color: rgb(34, 34, 34);
+
+}
+
+.run-image img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.run-container{
+    justify-content: space-between;
+    padding: 54px;
+}
+.run-container > div{
+    width: 45%;
+
+}
+
+.run-content{
+    flex-direction: column;
+    justify-content: space-between;
+}
+#run-btn{
+    width: 45%;
+}
+
+
+
+/* run easy section ends here  */
+
 
 
 
@@ -262,6 +306,26 @@
 
     margin-bottom: 50px;
 }
+.run-container{
+    flex-direction: column;
+    gap: 40px;
+    
+}
+.run-container > div{
+    width: 100%;
+
+}
+
+.run-content{
+   
+    gap: 20px;
+
+
+}
+#run-btn{
+    width: 100%;
+}
+
 
 
 }
