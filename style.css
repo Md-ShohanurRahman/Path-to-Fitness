@@ -7,6 +7,10 @@
      box-sizing: border-box;
   
 }
+img {
+    width: 100%;
+    height: 100%;
+}
 
 .inter-font-family {
   font-family: "Inter", sans-serif;
@@ -249,18 +253,27 @@
     margin: 0 auto ;
     margin-bottom: 50px;
 }
-.BMI-chart{
-  
-}
+
 .BMI-container{
     background-color: rgb(34, 34, 34);
-   min-height: 600px;
    padding: 100px 100px 50px 100px;
+   display: grid;
+   grid-template-columns: 1fr 1.8fr;
+   gap: 100px;
+ 
 }
 .BMI-chart-title{
-   padding-left: 10px;
-    margin-bottom: 30px;
+    margin-top: -15px;
+    margin-bottom: 40px;
 }
+.title-calculate{
+    margin-top: -15px;
+}
+.form-paragraph{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+  }
 
 table{
     border-collapse: collapse;
@@ -270,11 +283,77 @@ table th, table td {
     padding: 15px;
     text-align: left;
 }
+form {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 300px 300px ;
+    grid-template-rows: 50px 50px ;
+    gap: 30px 70px ;
+}
+form input {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: left;
+    border: none;
+    padding-left: 30px;
+}
+form select {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: left;
+    border: none;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 30px;
+}
+#activity-option{
+    width: 670px;
+    height: 40px;
+    padding-left: 30px;
+}
+
 
 
 /* BMI section ends here  */
 
 
+
+/* our-team section starts here  */
+
+.team-title{
+    max-width: 680px;
+    margin: 0 auto ;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.team-image-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.team-content{
+    position: absolute;
+    left: 25%;
+    bottom: 12%;
+}
+.team-image .team-image-container img {
+    width: 370px;
+    height: 320px;
+    border-radius: 20px;
+
+}
+.team-image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+
+
+
+
+/* our-team section ends  here  */
 
 /* media query for small device  starts here*/
 @media screen and (max-width:576px) {
@@ -356,7 +435,37 @@ table th, table td {
     width: 100%;
 }
 
+.BMI-container{
+
+    grid-template-columns: 1fr ;
+  
+   
+    padding-left: 10px;
+ }
+ .title-holder{
+    padding-left: 10px;
+ }
+ form {
+  
+   
+    grid-template-columns: 300px  ;
+    grid-template-rows: 50px 50px 50px 50px ;
+    gap: 30px 70px ;
 }
+#activity-option{
+    width: 300px;
+}
+
+.team-image{
+  
+    grid-template-columns: 1fr ;
+   
+}
+
+
+}
+
+
 
 
 
