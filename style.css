@@ -2,8 +2,9 @@
 
 *{
     padding: 0;
-    margin: 0;
-     /* border: 1px solid red;  */
+    margin: 0; 
+    /* border: 1px solid red;  */
+    
      box-sizing: border-box;
   
 }
@@ -347,13 +348,44 @@ form select {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    background-color: rgba(128, 128, 128, 0.405);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* our-team section ends  here  */
+
+
+
+
+/* style for footer starts here  */
+.footer-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 250px;
+    padding: 50px;
+
+}
+.footer-description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.middle {
+    max-width: 320px ;
+    margin: 0 auto ;
+    
+}
+
+.maker{
+    margin-top: 30px;
+    margin-bottom: 30px ;
 }
 
 
 
-
-
-/* our-team section ends  here  */
+/* style for footer ends here  */
 
 /* media query for small device  starts here*/
 @media screen and (max-width:576px) {
@@ -460,6 +492,21 @@ form select {
   
     grid-template-columns: 1fr ;
    
+}
+.team-image .team-image-container img {
+    width: 300px;
+    height: 290px;
+    border-radius: 20px;
+
+}
+
+.footer-container{
+    
+    grid-template-columns: repeat(1,1fr);
+    gap: 50px;
+    padding: 0px;
+    padding-left: 10px;
+
 }
 
 
