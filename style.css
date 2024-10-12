@@ -243,6 +243,36 @@
 
 /* run easy section ends here  */
 
+/* BMI section starts here  */
+.title-holder{
+    max-width: 680px;
+    margin: 0 auto ;
+    margin-bottom: 50px;
+}
+.BMI-chart{
+  
+}
+.BMI-container{
+    background-color: rgb(34, 34, 34);
+   min-height: 600px;
+   padding: 100px 100px 50px 100px;
+}
+.BMI-chart-title{
+   padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+table{
+    border-collapse: collapse;
+}
+table th, table td {
+    border: 1px solid rgba(128, 128, 128, 0.099) ; 
+    padding: 15px;
+    text-align: left;
+}
+
+
+/* BMI section ends here  */
 
 
 
@@ -325,8 +355,6 @@
 #run-btn{
     width: 100%;
 }
-
-
 
 }
 
