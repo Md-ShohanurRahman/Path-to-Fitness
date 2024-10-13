@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 *{
     padding: 0;
     margin: 0; 
@@ -20,6 +23,15 @@ img {
   color: white;
   background-color:rgba(11, 11, 11, 0.946) ;
  
+}
+
+
+
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 /* shared style stars here  */
 .display-flex{
@@ -86,6 +98,11 @@ img {
    
     color: rgb(255, 255, 255);
     font-size: 4.87rem;
+    font-weight: 900;
+}
+#shape{
+    font-size: 6.5rem;
+   
     font-weight: 900;
 }
 .btn-secondary{
