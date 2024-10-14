@@ -380,25 +380,94 @@ form select {
 
 /* styles for plan section starts here  */
 
-.plan{
+.plan-make{
   
     
     background-color: rgb(34, 34, 34);
-    padding: 20px;
+    padding: 40px;
+    border-radius: 15px;
+    
+    padding-bottom: 60px;
 }
 .plan-description{
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.71);
+ 
    
 }
 .plan-btn{
    
    max-width: 210px ;
    margin: 0 auto;
+   margin-top: 25px;
 
 }
 .mr-btn{
     margin-right: 0px;
+    
+}
+.plans{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin-top: 50px;
+   
+}
+
+.plan {
+    
+    background-color: #333;
+    border-radius: 15px;
+    padding: 20px;
+    /* width: 250px; */
+    text-align: center;
+    min-height: 490px;
+   
+}
+.plan h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.plan .price {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+ }
+.plan ul {
+    margin-bottom: 30px; 
+} 
+.plan ul li {
+    /* border: 1px solid red; */
+    margin: 10px 0px;
+    padding: 0;
+    text-align: left;
+}
+.plan .btn {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.plan .btn:hover {
+    background-color: #E15E27;
+}
+.plan.featured {
+    background-color: #E15E27;
+    transform: scale(1.05);
+}
+.plan.featured .btn {
+    background-color: #fff;
+    color: #E15E27;
+}
+.plan.featured .btn:hover {
+    background-color: #E15E27;
+    color: #fff;
+}
+.facility{
+    justify-content: center;
 }
 
 
