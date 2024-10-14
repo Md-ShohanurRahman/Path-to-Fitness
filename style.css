@@ -328,6 +328,11 @@ form select {
     height: 40px;
     padding-left: 30px;
 }
+.count-btn{
+    padding: 16px 100px 16px 100px;
+    margin-top: 35px;
+    color: white;
+}
 
 
 
@@ -528,6 +533,12 @@ footer{
     padding: 0px;
     padding-left: 10px;
 
+}
+.count-btn{
+   
+    margin-left: 10px;
+    padding: 15px 80px;
+    
 }
 
 
