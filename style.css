@@ -380,6 +380,26 @@ form select {
 
 /* styles for plan section starts here  */
 
+.plan{
+  
+    
+    background-color: rgb(34, 34, 34);
+    padding: 20px;
+}
+.plan-description{
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.71);
+   
+}
+.plan-btn{
+   
+   max-width: 210px ;
+   margin: 0 auto;
+
+}
+.mr-btn{
+    margin-right: 0px;
+}
 
 
 
