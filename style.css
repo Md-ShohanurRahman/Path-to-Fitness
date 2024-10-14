@@ -31,7 +31,6 @@ img {
     margin: 0 auto;
     padding-left: 10px;
     padding-right: 10px;
-
 }
 .description{
     color: rgba(255, 255, 255, 0.5);
@@ -48,13 +47,11 @@ img {
     color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
-
 }
 .section-margin{
     margin-top: 90px;
     margin-bottom: 90px;
 }
-
 
 /* shared style ends here  */
 
@@ -84,14 +81,12 @@ img {
     font-weight: 800;
 }
 .banner-title{
-   
     color: rgb(255, 255, 255);
     font-size: 4.87rem;
     font-weight: 900;
 }
 #shape{
     font-size: 6.5rem;
-   
     font-weight: 900;
 }
 .btn-secondary{
@@ -105,17 +100,14 @@ img {
     margin-top: 50px;
     gap: 50px;
     justify-content: space-between;
-
 }
 .banner>div{
-
     width: 45%;
 }
 .card-image{
     width: max-content;
     position: relative;
 }
-
 
 .card-image img{
     width: 100%;
@@ -130,27 +122,22 @@ img {
 }
 .banner-card{
     flex-direction: column;
-    align-items: end;
-    
+    align-items: end;  
 }
 #number{
     font-weight: 900;
     font-size: 1.5 rem;
     color: rgb(250, 250, 249);
-
 }
 .floating-card{
-    padding: 20px 30px;
-    
-    border-radius: 12px;
-    
+    padding: 20px 30px;    
+    border-radius: 12px; 
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.462);
     gap: 10px;
     position: absolute;
-   bottom: 20%;
-   right: 25%;
-
+    bottom: 20%;
+    right: 25%;
 }
 .floating-card-workout{
     padding: 15px ;
@@ -182,7 +169,6 @@ img {
     margin: 0 auto;
 }
 .change{
-
     margin-bottom: 10px;
     text-align: center;
 }
@@ -206,8 +192,6 @@ img {
 }
 
 .habits-card-container{
-    
-
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin-top: 60px;
@@ -222,16 +206,13 @@ img {
 
 /* run easy section starts here  */
 .run-easy{
-   
      border-radius: 18px;
     background-color: rgb(34, 34, 34);
-
 }
 
 .run-image img{
     width: 100%;
     border-radius: 20px;
-
 }
 .run-container{
     justify-content: space-between;
@@ -239,7 +220,6 @@ img {
 }
 .run-container > div{
     width: 45%;
-
 }
 
 .run-content{
@@ -249,8 +229,6 @@ img {
 #run-btn{
     width: 45%;
 }
-
-
 
 /* run easy section ends here  */
 
@@ -263,11 +241,10 @@ img {
 
 .BMI-container{
     background-color: rgb(34, 34, 34);
-   padding: 100px 100px 50px 100px;
-   display: grid;
-   grid-template-columns: 1fr 1.8fr;
-   gap: 100px;
- 
+    padding: 100px 100px 50px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    gap: 100px;
 }
 .BMI-chart-title{
     margin-top: -15px;
@@ -280,7 +257,8 @@ img {
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 2px;
-  }
+  
+}
 
 table{
     border-collapse: collapse;
@@ -297,6 +275,7 @@ form {
     grid-template-rows: 50px 50px ;
     gap: 30px 70px ;
 }
+
 form input {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
@@ -304,6 +283,7 @@ form input {
     border: none;
     padding-left: 30px;
 }
+
 form select {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
@@ -312,6 +292,7 @@ form select {
     color: rgba(255, 255, 255, 0.5);
     padding-left: 30px;
 }
+
 #activity-option{
     width: 670px;
     height: 40px;
@@ -323,11 +304,7 @@ form select {
     color: white;
 }
 
-
-
 /* BMI section ends here  */
-
-
 
 /* our-team section starts here  */
 
@@ -366,34 +343,24 @@ form select {
 
 /* our-team section ends  here  */
 
-
 /* styles for plan section starts here  */
-
 .plan-make{
-  
-    
     background-color: rgb(34, 34, 34);
     padding: 40px;
     border-radius: 15px;
-    
     padding-bottom: 60px;
 }
 .plan-description{
     font-size: 1.2rem;
     color: rgba(255, 255, 255, 0.71);
- 
-   
 }
 .plan-btn{
-   
    max-width: 210px ;
    margin: 0 auto;
    margin-top: 25px;
-
 }
 .mr-btn{
     margin-right: 0px;
-    
 }
 .plans{
     display: grid;
@@ -403,14 +370,11 @@ form select {
 }
 
 .plan {
-    
     background-color: #333;
     border-radius: 15px;
     padding: 20px;
-    /* width: 250px; */
     text-align: center;
     min-height: 460px;
-   
 }
 .plan h2 {
     font-size: 1.5rem;
@@ -424,7 +388,6 @@ form select {
     margin-bottom: 30px; 
 } 
 .plan ul li {
-    /* border: 1px solid red; */
     margin: 10px 0px;
     padding: 0;
     text-align: left;
@@ -457,15 +420,7 @@ form select {
     justify-content: center;
 }
 
-
-
-
-
-
 /* styles for plan section ends here  */
-
-
-
 
 /* style for footer starts here  */
 .footer-container{
@@ -473,30 +428,24 @@ form select {
     grid-template-columns: repeat(3,1fr);
     gap: 250px;
     padding: 50px;
-
 }
 .footer-description{
     display: flex;
     flex-direction: column;
     gap: 20px;
-
 }
 .middle {
     max-width: 320px ;
     margin: 0 auto ;
-    
 }
 
 .maker{
     padding-top: 40px;
     padding-bottom: 40px;
 }
-
 footer{
     background-color: rgb(34, 34, 34);
 }
-
-
 
 /* style for footer ends here  */
 
@@ -508,25 +457,21 @@ footer{
     .banner{
         flex-direction: column;
     }
-
     .banner>div{
 
         width: 100%;
     }
     .banner-card{
         display: block;
-        flex-direction:row;
-      
-        
+        flex-direction:row; 
     }
     .floating-card{
         padding: 20px ;
         gap: 10px;
         position:relative;
-       bottom: 300px;
-       right: 0;
-       width: 200px;
-    
+        bottom: 300px;
+        right: 0;
+        width: 200px;
     }
     .floating-card-workout{
         padding: 10px 5px;
@@ -538,7 +483,6 @@ footer{
     }
     .btn-primary{
         padding: 8px 20px 8px 20px;
-      
     }
     .btn-secondary{
         padding: 8px 20px 8px 20px;
@@ -549,50 +493,35 @@ footer{
         margin-right: 30px;
 }
 .habits-card-container{
-    
-
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    
 }
 
 .habits-content{
-
     margin-bottom: 50px;
 }
 .run-container{
     flex-direction: column;
     gap: 40px;
-    
 }
 .run-container > div{
     width: 100%;
-
 }
 
 .run-content{
-   
     gap: 20px;
-
-
 }
 #run-btn{
     width: 100%;
 }
-
 .BMI-container{
-
     grid-template-columns: 1fr ;
-  
-   
     padding-left: 10px;
  }
  .title-holder{
     padding-left: 10px;
  }
  form {
-  
-   
     grid-template-columns: 300px  ;
     grid-template-rows: 50px 50px 50px 50px ;
     gap: 30px 70px ;
@@ -600,32 +529,24 @@ footer{
 #activity-option{
     width: 300px;
 }
-
-.team-image{
-  
+.team-image{ 
     grid-template-columns: 1fr ;
-   
 }
 .team-image .team-image-container img {
     width: 300px;
     height: 290px;
     border-radius: 20px;
-
 }
 
 .footer-container{
-    
     grid-template-columns: repeat(1,1fr);
     gap: 50px;
     padding: 0px;
     padding-left: 10px;
-
 }
 .count-btn{
-   
     margin-left: 10px;
     padding: 15px 80px;
-    
 }
 .hr-role{
     max-width: 350px;
@@ -633,14 +554,9 @@ footer{
     margin-top: 30px;
 }
 .plans{
-
     grid-template-columns: repeat(1,1fr);
 } 
+
 }
-
-
-
-
-
 
 /* media query for small device  ends  here*/
