@@ -378,6 +378,17 @@ form select {
 /* our-team section ends  here  */
 
 
+/* styles for plan section starts here  */
+
+
+
+
+
+
+
+/* styles for plan section ends here  */
+
+
 
 
 /* style for footer starts here  */
@@ -539,6 +550,11 @@ footer{
     margin-left: 10px;
     padding: 15px 80px;
     
+}
+.hr-role{
+    max-width: 350px;
+    margin: 0 auto ;
+    margin-top: 30px;
 }
 
 
