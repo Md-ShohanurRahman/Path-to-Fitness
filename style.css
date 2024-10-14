@@ -407,12 +407,10 @@ form select {
     
 }
 .plans{
-    
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 30px;
-    margin-top: 50px;
-   
+    gap: 45px;
+    margin-top: 70px;
 }
 
 .plan {
@@ -422,7 +420,7 @@ form select {
     padding: 20px;
     /* width: 250px; */
     text-align: center;
-    min-height: 490px;
+    min-height: 460px;
    
 }
 .plan h2 {
@@ -645,8 +643,10 @@ footer{
     margin: 0 auto ;
     margin-top: 30px;
 }
-
-
+.plans{
+    
+    grid-template-columns: repeat(1,1fr);
+} 
 }
 
 
